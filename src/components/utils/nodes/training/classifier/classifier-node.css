@@ -1,0 +1,107 @@
+.classifier-node {
+    height: 100px;
+    width: 200px;
+    border: 2px solid #ffee00;
+    padding: 5px;
+    border-radius: 5px;
+    background: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.classifier-node_label {
+    display: block;
+    color: #ffee00;
+    font-size: 20px;
+    text-align: center;
+}
+
+.classifier-node_sublabel {
+    display: block;
+    color: #ffee00;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.classifier-node_hyperparameter_label {
+    color: #ffee00;
+    font-size: 10px;
+}
+
+.classifier-node_hyperparameter_input {
+    color: #ffee00;
+    font-size: 10px;
+    border-color: #ffee00;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+
+.classifier-node:hover {
+    border: 2px solid #fff940;
+    color: #fff940;
+}
+
+.classifier-node:hover .classifier-node_label {
+    color: #fff940;
+}
+
+.classifier-node:hover .classifier-node_select {
+    color: #fff940;
+    border: 1px solid #fff940;
+}
+
+.classifier-node:hover .classifier-node_select:hover {
+    background-color: #fff940;
+    color: #000;
+}
+
+.classifier-node_select {
+    width: 170px;
+    height: 20px;
+    background: #000;
+    border: 1px solid #ffee00;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #ffee00;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.classifier-node .react-flow__handle-right {
+    border-radius: 10%;
+    height: 1.5rem;
+    width: 0.3rem;
+    background-color: #000;
+    border-color: #ffee00;
+    border-width: 0.15rem;
+}
+
+.classifier-node:hover .react-flow__handle-right {
+    border-color: #fff940;
+}
+
+.classifier-node .react-flow__handle-left {
+    border-radius: 10%;
+    height: 1.5rem;
+    width: 0.3rem;
+    background-color: #000;
+    border-color: #ffee00;
+    border-width: 0.15rem;
+}
+
+.classifier-node:hover .react-flow__handle-left {
+    border-color: #fff940;
+}
+
+.classifier-node .react-flow__handle-connecting {
+    background-color: #ff6060;
+}
+
+.classifier-node .react-flow__handle-valid {
+    background-color: #55dd99;
+}

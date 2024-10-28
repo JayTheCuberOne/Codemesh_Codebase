@@ -1,0 +1,50 @@
+.graphing-node {
+  height: 70px;
+  width: 150px;
+  border: 2px solid #00DE25;
+  padding: 5px;
+  border-radius: 5px;
+  background: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+.graphing-node_label {
+  display: block;
+  color: #00DE25;
+  font-size: 20px;
+  text-align: center;
+}
+
+.graphing-node:hover {
+  border: 2px solid #D6DE00;
+  color: #D6DE00;
+}
+
+.graphing-node:hover .graphing-node_label {
+  color: #D6DE00;
+}
+
+.graphing-node:hover .graphing-node_select {
+  color: #D6DE00;
+  border: 1px solid #D6DE00;
+}
+
+.graphing-node:hover .graphing-node_select:hover {
+  background-color: #D6DE00;
+  color: #000;
+}
+
+.graphing-node_select {
+  width: 100px;
+  height: 20px;
+  background: #000;
+  border: 1px solid #00DE25;
+  border-radius: 4px;
+  font-size: 10px;
+  color: #00DE25;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

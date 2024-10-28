@@ -1,0 +1,127 @@
+.dataset-node {
+  height: 120px;
+  width: 190px;
+  border: 2px solid #ff0000;
+  padding: 5px;
+  border-radius: 5px;
+  background: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+.dataset-node_label {
+  display: block;
+  color: #ff0000;
+  font-size: 20px;
+  text-align: center;
+}
+
+.dataset-node_sublabel {
+  display: block;
+  color: #ff0000;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dataset-node:hover {
+  border: 2px solid #ff4040;
+  color: #ff4040;
+}
+
+.dataset-node:hover .dataset-node_label {
+  color: #ff4040;
+}
+
+.dataset-node:hover .dataset-node_upload {
+  color: #ff4040;
+  border: 1px solid #ff4040;
+}
+
+.dataset-node:hover .dataset-node_upload:hover {
+  background-color: #ff4040;
+  color: #000;
+}
+
+.dataset-node_upload {
+  width: 100px;
+  height: 20px;
+  background: #000;
+  border: 1px solid #ff0000;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #ff0000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#file {
+  display: none;
+}
+
+.dataset-node_tablesource {
+  height: 3px;
+}
+
+.dataset-node .react-flow__handle-right {
+  border-radius: 10%;
+  height: 1.5rem;
+  width: 0.3rem;
+  background-color: #000;
+  border-color: #ff0000;
+  border-width: 0.15rem;
+  /* right: -6.5px; */
+}
+
+.dataset-node .react-flow__handle-left {
+  border-radius: 10%;
+  height: 1.5rem;
+  width: 0.3rem;
+  background-color: #000;
+  border-color: #ff0000;
+  border-width: 0.15rem;
+}
+
+.dataset-node_select {
+  width: 170px;
+  height: 20px;
+  background: #000;
+  border: 1px solid #ff0000;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #ff0000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dataset-node:hover .dataset-node_select {
+  border: 1px solid #ff4040;
+  color: #ff4040;
+}
+
+.dataset-node:hover .dataset-node_select:hover {
+  background-color: #ff4040;
+  color: #000;
+}
+
+.dataset-node:hover .react-flow__handle-right {
+  border-color: #ff4040;
+}
+
+.dataset-node:hover .dataset-node_sublabel {
+  color: #ff4040;
+}
+
+.dataset-node .react-flow__handle-connecting {
+  background-color: #ff6060;
+}
+
+.dataset-node .react-flow__handle-valid {
+  background-color: #55dd99;
+}

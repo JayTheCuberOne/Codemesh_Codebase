@@ -1,0 +1,59 @@
+.training-node {
+    height: 60px;
+    width: 150px;
+    border: 2px solid #00DE25;
+    padding: 5px;
+    border-radius: 5px;
+    background: #000;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .training-node_label {
+    display: block;
+    color: #00DE25;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .training-node:hover {
+    border: 2px solid #D6DE00;
+    color: #D6DE00;
+  }
+  
+  .training-node:hover .training-node_label {
+    color: #D6DE00;
+  }
+  
+  .training-node:hover .training-node_upload {
+    color: #D6DE00;
+    border: 1px solid #D6DE00;
+  }
+  
+  .training-node:hover .training-node_upload:hover {
+    background-color: #D6DE00;
+    color: #000;
+  }
+  
+  .training-node_upload {
+    width: 100px;
+    height: 20px;
+    background: #000;
+    border: 1px solid #00DE25;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #00DE25;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #file {
+    display: none;
+  }
+  
+  .training-node_tablesource {
+    height: 3px;
+  }

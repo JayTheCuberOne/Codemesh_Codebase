@@ -1,0 +1,58 @@
+.accuracy-node {
+  height: 100px;
+  width: 180px;
+  border: 2px solid #1aff00;
+  padding: 5px;
+  border-radius: 5px;
+  background: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+.accuracy-node_label {
+  display: block;
+  color: #1aff00;
+  font-size: 20px;
+  text-align: center;
+}
+
+.accuracy-node_sublabel {
+  display: block;
+  color: #1aff00;
+  font-size: 15px;
+  text-align: center;
+}
+
+.accuracy-node:hover {
+  border: 2px solid #50ff40;
+  color: #50ff40;
+}
+
+.accuracy-node:hover .accuracy-node_label {
+  color: #50ff40;
+}
+
+.accuracy-node:hover .accuracy-node_sublabel {
+  color: #50ff40;
+}
+
+.accuracy-node .react-flow__handle-left {
+  border-radius: 10%;
+  height: 1.5rem;
+  width: 0.3rem;
+  background-color: #000;
+  border-color: #1aff00;
+  border-width: 0.15rem;
+}
+
+.accuracy-node:hover .react-flow__handle-left {
+  border-color: #50ff40;
+}
+
+.accuracy-node .react-flow__handle-connecting {
+  background-color: #ff6060;
+}
+
+.accuracy-node .react-flow__handle-connecting {
+  background-color: #55dd99;
+}
